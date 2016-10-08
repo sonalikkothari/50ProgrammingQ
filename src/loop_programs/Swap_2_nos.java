@@ -7,6 +7,7 @@ public class Swap_2_nos {
 		
 		Swap_2_nos swapno = new Swap_2_nos();
 		swapno.number_swap(75 , 30);
+		swapno.number_swap_num3(10, 20);
 	}
 
 	public void number_swap(int num1, int num2) {
@@ -21,6 +22,20 @@ public class Swap_2_nos {
 		num1 = num2 - num1;
 		num2 = num2 - num1;
 		System.out.println("The swapped nos are:" + num1 + "  "+ num2);
+		
+	}
+	
+	public void number_swap_num3(int num1, int num2) {
+		
+		System.out.println("The nos before swapping:"+ num1 + "  " + num2);
+
+		int num3 = 0;
+		num3 = num1;
+		num1 = num2;
+		num2 = num3;
+		
+		System.out.println("The swapped nos are:" + num1 + "  "+ num2);
+			
 		
 	}
 }

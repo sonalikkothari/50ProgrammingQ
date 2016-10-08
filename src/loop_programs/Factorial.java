@@ -5,9 +5,18 @@ public class Factorial {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Factorial fact = new Factorial();
-		fact.cal_factorial(9); 
-		fact.cal_factorial(0); 
+		
+		Factorial factor = new Factorial();
+		factor.cal_factorial(9); 
+		factor.cal_factorial(0); 
+		
+		int fact=1;
+		fact = factor.fact_recursion(9);
+		System.out.println("The factorial is :" + fact);
+		fact = factor.fact_recursion(0);
+		System.out.println("The factorial is :" + fact);
+		fact = factor.fact_recursion(5);
+		System.out.println("The factorial is :" + fact);
 		
 	}
 
@@ -24,4 +33,18 @@ public class Factorial {
 		}
 		System.out.println("The factorial of " + num +" is :" + fact);
 	}
+
+
+	public int fact_recursion(int num) {
+				
+		if(num ==0) {
+			
+			return 1;
+			
+		} else {
+			
+			return (num * fact_recursion(num-1));
+		}
+	}
+
 }

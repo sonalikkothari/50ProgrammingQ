@@ -7,6 +7,7 @@ public class Fibonacci {
 		
 		Fibonacci fib = new Fibonacci();
 		fib.fibseries(10);
+		
 	}
 	
 	public void fibseries(int count) {

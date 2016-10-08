@@ -6,7 +6,11 @@ public class Display_Ping_pong {
 		// TODO Auto-generated method stub
 			
 		Display_Ping_pong dsply = new Display_Ping_pong();
+		dsply.printpingpong(6);
+		dsply.printpingpong(20);
 		dsply.printpingpong(15);
+		dsply.printpingpong(23);
+		
 	}
 
 	public void printpingpong(int num) {

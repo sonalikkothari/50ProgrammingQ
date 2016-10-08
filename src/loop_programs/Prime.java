@@ -1,7 +1,8 @@
 package loop_programs;
 
 public class Prime {
-
+	//find a number is prime or not
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Prime findprime = new Prime();

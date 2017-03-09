@@ -23,12 +23,12 @@ public class Rectangle extends Shape {
 		return length * width;
 	}
 
-	@Override
+	/*@Override
 	public float calculate_Perimeter() {
 		// TODO Auto-generated method stub
 		return 2 *(length+width);
 	}
-	
+	*/
 	
 
 }

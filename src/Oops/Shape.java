@@ -2,6 +2,8 @@ package Oops;
 
 public abstract class Shape {
       
+	//class is Abstract if it contains an abstract method
+	//Abstract class can have abstract as well as non abstract methods(Method with Body)
 	
 	public int noOfSides;
 	public float length;
@@ -14,7 +16,9 @@ public abstract class Shape {
 	
 	public abstract float calculate_Area();
 	
-	public abstract float calculate_Perimeter();
+	public  float calculate_Perimeter() {
+		return 2 *(length+width);
+	}
 	
 		
 }

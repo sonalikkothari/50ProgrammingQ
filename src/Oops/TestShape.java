@@ -20,4 +20,16 @@ public class TestShape {
 		
 		
 	}
+	
+	@Test
+	public void test_Shape_Circle() {
+		
+		Circle shCircle = new Circle(4,3);
+		
+		float circleArea = shCircle.calculate_Area();
+		System.out.println("The area of a circle is:" +circleArea);
+		
+		float circlePerimeter = shCircle.calculate_Perimeter();
+		System.out.println("The perimeter of a circle is:" +circlePerimeter);
+	}
 }

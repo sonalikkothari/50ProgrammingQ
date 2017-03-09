@@ -1,6 +1,6 @@
 package loop_programs;
 
-public class ArmStrNum {
+public class ArmStrNum{
    //153 = no of digits are 3,1^3+5^3+3^3=153
 	
 	public void chkArmStrNum(int num) {
